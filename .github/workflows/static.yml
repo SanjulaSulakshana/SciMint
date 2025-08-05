@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SCIMINT – A/L MCQ Database</title>
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      background-color: #000;
+      color: #ccc;
+      font-family: 'Oxanium', sans-serif;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: 52px;
+      letter-spacing: 3px;
+      margin-bottom: 10px;
+    }
+
+    p.tagline {
+      font-size: 18px;
+      color: #999;
+      margin-bottom: 40px;
+    }
+
+    .section-title {
+      font-size: 28px;
+      margin: 60px 0 20px;
+      border-bottom: 1px solid #444;
+      padding-bottom: 10px;
+    }
+
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 20px;
+    }
+
+    .card {
+      background-color: #111;
+      border: 1px solid #333;
+      border-radius: 10px;
+      padding: 30px;
+      width: 300px;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      border-color: #666;
+      background-color: #1a1a1a;
+    }
+
+    .card h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #fff;
+    }
+
+    .card p {
+      font-size: 15px;
+      color: #aaa;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 25px;
+      font-size: 16px;
+      color: #ccc;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #222;
+    }
+
+    .schools-list {
+      margin-top: 40px;
+      font-size: 16px;
+      color: #bbb;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.6;
+    }
+
+    .schools-list strong {
+      color: #ccc;
+    }
+
+    footer {
+      margin-top: 80px;
+      font-size: 14px;
+      color: #555;
+    }
+
+    @media (max-width: 700px) {
+      h1 {
+        font-size: 36px;
+      }
+      .card {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>SCIMINT</h1>
+  <p class="tagline">Sri Lanka’s Largest A/L Chemistry & Physics MCQ Database</p>
+
+  <!-- Free Version Section -->
+  <div class="section-title">🆓 Free Version</div>
+  <div class="card-container">
+    <div class="card">
+      <h2>🧪 Chemistry</h2>
+      <p>Access MCQ by topic wise. Free to use.</p>
+      <a href="#" class="btn">View Chemistry</a>
+    </div>
+    <div class="card">
+      <h2>⚡ Physics</h2>
+      <p>Topic-wise MCQ collection.</p>
+      <a href="#" class="btn">View Physics</a>
+    </div>
+  </div>
+
+  <!-- Pro Version Section -->
+  <div class="section-title">💎 Pro Version</div>
+  <div class="card-container">
+    <div class="card">
+      <h2>🔍 Search + Filter</h2>
+      <p>Instant search by keyword, topic, or year. Advanced filtering tools.</p>
+      <a href="#" class="btn">Upgrade</a>
+    </div>
+    <div class="card">
+      <h2>📊 Performance Tracker</h2>
+      <p>Track your quiz scores and see topic-wise progress over time.</p>
+      <a href="#" class="btn">Upgrade</a>
+    </div>
+    <div class="card">
+      <h2>🚫 No Ads</h2>
+      <p>Distraction-free learning experience with zero ads on any page.</p>
+      <a href="#" class="btn">Upgrade</a>
+    </div>
+  </div>
+
+  <!-- Supported Schools Section -->
+  <div class="section-title">🏫 Supported Schools</div>
+  <p class="schools-list">
+    Our MCQ database is built using past papers from top Sri Lankan schools such as <strong>Ananda, Royal, Nalanda, Vishaka, Devi Balika, Sirimavo, Dharmapala</strong> and many more. We continuously add more school papers to keep the database rich and updated.
+  </p>
+
+  <footer>
+    © 2025 SCIMINT. All rights reserved.
+  </footer>
+
+</body>
+</html>
